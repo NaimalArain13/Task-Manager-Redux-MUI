@@ -7,7 +7,7 @@ export interface Task{
 }
 export const taskSlice = createSlice({
     name:"Task",
-    initialState:[{id:"0", task:"Hello World", completed:false}] as Task[],
+    initialState:[{id:"0", task:"Coding at Night", completed:false}] as Task[],
     reducers:{
         addTask:(state, action:PayloadAction<string>)=>{
             state.push({id:nanoid(), task:action.payload,completed:false})
