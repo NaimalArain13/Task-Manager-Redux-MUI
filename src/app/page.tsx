@@ -14,7 +14,15 @@ export default function Home() {
         textAlign="center"
         fontWeight="bold"
       >
-        Task Manager
+        Manage Your Tasks Efficently
+      </Typography>
+      <Typography variant="h6"
+      textAlign={"center"}
+      fontWeight={"medium"}
+      sx={{ mt: 1 }}
+      color="text.secondary"
+      >
+         Organize, prioritize, and track your daily to-dos with ease using this simple task manager.
       </Typography>
 
       <Box mt={3}>
