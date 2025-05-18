@@ -1,7 +1,7 @@
 "use client"
 import { addTask } from "@/app/store/taskSlice";
 import { useState , FormEvent} from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { TextField, Button, Box } from "@mui/material";
 
 function AddTask() {

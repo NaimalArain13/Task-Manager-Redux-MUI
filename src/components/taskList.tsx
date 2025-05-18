@@ -1,5 +1,4 @@
 "use client"
-import { Task } from "@/app/store/taskSlice";
 import { useSelector } from "react-redux";
 import { RootState } from "@/app/store/store";
 import TaskItem from "./taskItem";
